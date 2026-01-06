@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofina</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <a href="#" class="logo">Sofina</a>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-category="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-category="women">Women</a></li>
+                <li><a href="#" class="nav-link" data-category="bags">Bags</a></li>
+                <li><a href="#" class="nav-link" data-category="shoes">Shoes</a></li>
+            </ul>
+            <div class="header-actions">
+                <div class="action-item" id="phone-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="action-item" id="wishlist-icon">
+                    <i class="far fa-heart"></i>
+                    <span class="badge" id="wishlist-count">0</span>
+                </div>
+                <div class="action-item" id="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="badge" id="cart-count">0</span>
+                </div>
+                <div class="action-item" id="user-icon">
+                    <i class="far fa-user"></i>
+                </div>
+                <select class="language-selector">
+                    <option value="az">EN</option>
+                </select>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <h3>Sofina</h3>
+            <button class="close-mobile-menu" id="close-mobile-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#" class="mobile-nav-link active" data-category="home">Home</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="women">Women</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="bags">Bags</a></li>
+            <li><a href="#" class="mobile-nav-link" data-category="shoes">Shoes</a></li>
+        </ul>
+    </div>
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Sənin Stilin</h1>
+        <p>Öz üslubunu Sofina ilə kəşf et</p>
+        <a href="#" class="btn">Kolleksiyanı Kəşf Et</a>
+    </section>
+    <!-- Products -->
+    <section class="products">
+        <h2 class="section-title" id="category-title">New Products</h2>
+        <div class="products-container" id="products-container">
+            <div class="loading">Loading products…</div>
+        </div>
+    </section>
+    <!-- Best Sellers -->
+    <section class="best-sellers" id="best-sellers-section">
+        <h2 class="section-title">Best Sellers</h2>
+        <div class="best-sellers-container" id="best-sellers-container">
+            <div class="loading">Loading...</div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about-section">
+        <div class="about-content">
+            <h2>Sofina Haqqında</h2>
+            <p>Sofina, müasir qadınların üslub və rahatlıq ehtiyaclarını qarşılamaq üçün yaradılmış bir moda markasıdır.</p>
+        </div>
+    </section>
+    <!-- Product Modal -->
+    <div class="modal" id="product-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Product Options</h3>
+                <button class="close-modal" id="close-product-modal">&times;</button>
+            </div> 
+            <div class="modal-body">
+                <div class="product-modal-main">
+                    <img id="product-modal-image" src="" alt="" class="product-modal-image">
+                    <div>
+                        <h4 id="product-modal-name"></h4>
+                        <p class="product-modal-price" id="product-modal-price"></p>
+                    </div>
+                </div>
+                <div class="selection-group">
+                    <h5>Size:</h5>
+                    <div class="size-options" id="size-options"></div>
+                </div>
+                <div class="selection-group">
+                    <h5>Color:</h5>
+                    <div class="color-options" id="color-options"></div>
+                </div>
+                <div class="selection-group">
+                    <h5>Quantity:</h5>
+                    <div class="quantity-selector">
+                        <button class="qty-btn" id="qty-minus">-</button>
+                        <span id="qty-number">1</span>
+                        <button class="qty-btn" id="qty-plus">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button class="add-to-cart-btn" id="add-to-cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sofina</h3>
+                <p>Öz üslubunu kəşf etmək üçün doğru yer.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Əlaqə</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Baku, Azerbaijan</p>
+                <p><i class="fas fa-phone"></i> +994 12 345 67 89</p>
+                <p><i class="fas fa-envelope"></i> info@sofina.az</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sofina. Bütün hüquqlar qorunur.</p>
+        </div>
+    </footer>
+    <!-- Sign In Modal -->
+    <div class="modal" id="signin-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Log in to your account</h3>
+                <button class="close-modal" id="close-signin">&times;</button>
+            </div>
+            <form id="signin-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="modal-btn">Sign In</button>
+            </form>
+        </div>
+    </div>
+    <!-- Cart Sidebar -->
+    <div class="sidebar" id="cart-sidebar">
+        <div class="sidebar-header">
+            <h3 class="sidebar-title">My cart</h3>
+            <button class="close-sidebar" id="close-cart">&times;</button>
+        </div>
+        <div id="cart-items">
+            <p class="empty-message">Your cart is empty</p>
+        </div>
+        <div class="sidebar-total">
+            Total: <span id="cart-total">0.00</span> AZN
+        </div>
+    </div>
+    <!-- Wishlist Sidebar -->
+    <div class="sidebar" id="wishlist-sidebar">
+        <div class="sidebar-header">
+            <h3 class="sidebar-title">My Favorites</h3>
+            <button class="close-sidebar" id="close-wishlist">&times;</button>
+        </div>
+        <div id="wishlist-items">
+            <p class="empty-message">Favorites are empty</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
