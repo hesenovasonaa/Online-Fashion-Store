@@ -1,24 +1,34 @@
-Sofina - Modern Online Fashion Store
-Sofina — qadın modası dünyasını rəqəmsal məkanda birləşdirən, istifadəçi dostu interfeysə malik elektron ticarət platformasıdır. Layihə geyim, ayaqqabı və çanta kateqoriyaları üzrə dinamik alış-veriş təcrübəsi təqdim edir.
+# Sofina - Modern Online Fashion Store
 
-Əsas Özəlliklər
-Dinamik Alış-veriş Təcrübəsi
-Ağıllı Filtrləmə: Geyim, ayaqqabı və çanta kateqoriyaları arasında sürətli keçid.
+Sofina — qadın modası dünyasını rəqəmsal məkanda birləşdirən, elektron ticarət platformasıdır. Layihə geyim, ayaqqabı və çanta kateqoriyaları üzrə dinamik alış-veriş simulyasiyasını təqdim edir.
 
-Fərdi Seçim Paneli: Hər bir məhsul üçün xüsusi ölçü (size) seçimi imkanı.
 
-İnteraktiv Səbət: Məhsulları səbətə əlavə etmə, sayını idarə etmə və real-vaxt rejimində ümumi məbləğin (Total Price) hesablanması.
+## Layihənin Geniş Təsviri
 
- İstifadəçi Seçimləri
-Wishlist (Bəyənilənlər): Sevdiyiniz məhsulları itirməmək üçün onları ürək işarəsi ilə ayrıca siyahıya toplamaq və istədiyiniz zaman idarə etmək.
+Bu platforma, müasir onlayn mağazaların iş prinsipini əsas götürərək hazırlanmışdır. İstifadəçilər kataloqda gəzə, məhsulların detalları ilə tanış ola və öz fərdi alış-veriş siyahılarını yarada bilərlər. Layihənin əsas məqsədi sadə interfeys daxilində mürəkkəb funksionallıqları (səbət hesablama, filtrasiya və s.) təmin etməkdir.
 
-Məhsul Detalları: Hər məhsulun üzərinə kliklədikdə açılan vizual məlumat paneli.
 
-Texniki Üstünlüklər
-Tam Responsive: Planşet, mobil və masaüstü ekranlara mükəmməl uyğunlaşan (Mobile-first approach) dizayn.
-Texnologiya:
-Layihənin sürətli və effektiv işləməsi üçün aşağıdakı texnologiyalardan istifadə olunub:
+## Əsas Özəlliklər və Funksionallıq
 
-HTML5
-CSS3 & Flexbox/Grid
-JavaScript
+###  Dinamik Alış-veriş Sistemi
+* **Kateqoriya Filtrləmə:** Geyim, ayaqqabı və çanta bölmələri arasında sürətli və axıcı keçid.
+* **Məhsul Detalları:** Hər bir məhsulun üzərinə kliklədikdə açılan fərdi ölçü (size) seçimi paneli.
+* **İnteraktiv Səbət (Cart):** Məhsulların səbətə əlavə edilməsi, silinməsi və sayının tənzimlənməsi.
+* **Avtomatik Hesablama:** Səbətdəki dəyişikliklərə uyğun olaraq ümumi məbləğin (Total Price) anlıq yenilənməsi.
+
+### İstifadəçi Seçimləri
+* **Wishlist (Bəyənilənlər):** Sevilən məhsulların itməməsi üçün "Ürək" işarəsi ilə ayrıca siyahıda saxlanılması.
+* **Siyahı İdarəetməsi:** Bəyənilənlər bölməsindən məhsulların asanlıqla silinməsi və ya səbətə yönləndirilməsi.
+
+###  Texniki Üstünlüklər
+* **Tam Responsive:** Mobil telefonlar, planşetlər və geniş ekranlı monitorlar üçün tam optimallaşdırılmış dizayn.
+* **Sürətli İnterfeys:** JavaScript DOM manipulyasiyası sayəsində səhifə yenilənmədən baş verən dinamik dəyişikliklər.
+
+
+## İstifadə Olunan Texnologiyalar
+
+Layihənin struktur və funksional tərəfi aşağıdakı müasir alətlərlə qurulub:
+
+* **HTML5**
+* **CSS3** 
+* **JavaScript**
